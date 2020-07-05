@@ -40,22 +40,3 @@ button.grid(column=1,row=1,pady=10)
 
 
 root.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
