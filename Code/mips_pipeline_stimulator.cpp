@@ -1421,4 +1421,5 @@ int main()
     // Print Instructions
     printInstructionList(INS);
 	runProgram();
+	getchar();
 }
