@@ -15,7 +15,7 @@ root.title("MIPS Simulator")
 canvas=tk.Canvas(root,height=HEIGHT,width=WIDTH)
 canvas.pack()
 
-back_img=tk.PhotoImage(file=r'Files/mips.png')
+back_img=tk.PhotoImage(file=r'Files/Images/mips.png')
 
 back_label=tk.Label(root,image=back_img)
 back_label.place(relwidth=1,relheight=1)
