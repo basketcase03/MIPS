@@ -1422,4 +1422,5 @@ int main()
     printInstructionList(INS);
 	runProgram();
 	getchar();
+	getchar();
 }
