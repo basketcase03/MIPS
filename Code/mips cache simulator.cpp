@@ -25,7 +25,6 @@ class Word{
 	    void deinit_word();
 	    friend void add_word(char operation,int address);
 	    friend void simulate(char method);
-	    friend void show_Lines();
 };
 
 
@@ -594,7 +593,7 @@ int main()
 	
 	//Get input for type of caching policy
 	int method;
-	cout<<"Press 1 for Executing Write-Through with Write Allocate Cache Policy\nPress 2 for executing Write Back and Write Allocate Caching Policy\n";
+	cout<<"Press 1 for Executing Write-Through with Write Allocate Cache Policy\nPress 2 for executing Write Back without Write Allocate Caching Policy\n";
 	{
 		cin>>method;
 	    if(method==1)
