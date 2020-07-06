@@ -5,7 +5,7 @@ def get_mips_cache():
     subprocess.run(["Files/mips cache simulator.exe"])
 
 def get_mips_pipeline():
-    subprocess.run(["Files/mips pipeline stimulator.exe"])
+    subprocess.run(["Files/mips pipeline simulator.exe"])
 
 HEIGHT = 700
 WIDTH = 1040
