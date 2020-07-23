@@ -197,7 +197,6 @@ class symboltable{
 	}
 	
 	
-
 	void friend Render_Parse_Table();
 	int friend resolveRegister(label** labList,char* regString);
 	
@@ -736,12 +735,7 @@ void Parse_Input(){
             }
         }
     }
-	SymbolTable.Construct_Table(CmdList,LabList);
-	cout<<"Print the Label list "<<endl;
-	SymbolTable.printLabelList();
-	cout<<"Print the Command list "<<endl;
-	SymbolTable.printCmdList();
-	cout<<"Pass 1 complete"<<endl;	
+	SymbolTable.Construct_Table(CmdList,LabList);	
 		
 }
 	
