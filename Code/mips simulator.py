@@ -5,7 +5,7 @@ def get_mips_cache():
     subprocess.run(["Files/mips cache simulator.exe"])
 
 def get_mips_pipeline():
-    subprocess.run(["Files/mips_pipeline_simulator.exe"])
+    subprocess.run(["Files/mips_assembler.exe"])
 
 HEIGHT = 700
 WIDTH = 1040
@@ -27,7 +27,7 @@ back_label.place(relwidth=1,relheight=1)
 lower_frame1=tk.Frame(root,bg='black',bd=5)
 lower_frame1.place(relx=0.2,rely=0.35,relwidth=0.23,relheight=0.1,anchor='n')
 
-button=tk.Button(lower_frame1,text='MIPS Pipeline',bg='white',fg='black',width=17,font=('Courier',16),command=lambda: get_mips_pipeline())
+button=tk.Button(lower_frame1,text='MIPS Assembler',bg='white',fg='black',width=17,font=('Courier',16),command=lambda: get_mips_pipeline())
 #button.place(relx=0.3,relheight=1,relwidth=0.3)
 button.grid(column=1,row=0,pady=10,padx=0)
 
