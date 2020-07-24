@@ -379,10 +379,6 @@ int resolveRegister(label** labList,char* regString)
 {
     if(SymbolTable.queryLabel(regString))
     {
-        if(1)
-        {
-            printf("Resolving label `%s` to address `%d`.\n", regString, SymbolTable.queryLabel(regString)->Lab_Address);
-        }
         return SymbolTable.queryLabel(regString)->Lab_Address;
     }
     return registerToDecimal(regString);
