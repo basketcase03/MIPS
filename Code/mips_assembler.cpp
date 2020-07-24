@@ -745,7 +745,7 @@ void Introductory_Message(){
 	// Prints introductory message
 	cout<<"******MIPS ASSEMBLER**********"<<endl;
 	cout<<"Enter the instructions. (Max. = 100)"<<endl;
-	cout<<"When done, enter 'exit' to get the assembly language."<<endl;
+	cout<<"When done, press CTRL+Z to get the assembly language."<<endl;
 	
 }
 
